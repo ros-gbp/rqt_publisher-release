@@ -1,0 +1,12 @@
+Source: ros-melodic-rqt-publisher
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: http://wiki.ros.org/rqt_publisher
+Standards-Version: 3.9.2
+
+Package: ros-melodic-rqt-publisher
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-rospkg, ros-melodic-python-qt-binding (>= 0.2.19), ros-melodic-qt-gui-py-common, ros-melodic-roslib, ros-melodic-rosmsg (>= 1.9.49), ros-melodic-rqt-gui, ros-melodic-rqt-gui-py, ros-melodic-rqt-py-common
+Description: rqt_publisher provides a GUI plugin for publishing arbitrary messages with fixed or computed field values.
